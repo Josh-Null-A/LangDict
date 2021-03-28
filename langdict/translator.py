@@ -43,7 +43,6 @@ class Translator:
 
         # Get the english words from the dictionary
         english    = self.get_english(r_dictionary)
-        print(english)
 
         # Translate the word into the target language
         translated = self.backend.scrape_translations(english)
